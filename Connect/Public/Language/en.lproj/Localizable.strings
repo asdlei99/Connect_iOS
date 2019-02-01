@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  Connect
+
+  Created by Dwang on 2018/9/2.
+  Copyright © 2018年 CoderDwang. All rights reserved.
+*/
+
+"noData" = "No Data";
+
+"noCache" = "No Cache";
+
+"settingTitle" = "Setting";
+
+"cache" = "Clear Cache";
+
+"hiddenPrepareForUpload" = "Hidden Prepare For Upload Status Apps";
+
+"showPrepareForUpload" = "Show Prepare For Upload Status Apps";
+
+"accountManager" = "Account Manager";
+
+"accountManagerDeatil" = "Add Or Remove Developer Accounts";
+
+"ignoreNewCreateApps" = "Ignore New Create Apps";
+
+"ignoreApps" = "Ignore Apps";
+
+"add" = "Add";
+
+"email" = "E-Mail:";
+
+"developer_password" = "Password:";
+
+"mark" = "Mark:";
+
+"save" = "Save";
+
+"delete" = "Delete";
+
+"edit" = "Edit";
+
+"cancel" = "Cancel";
+
+"ok" = "OK";
+
+"are you delete this account?" = "Are you delete this account?";
+
+"last update" = "Last update:";

@@ -1,0 +1,1988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2708ABA12166ECCA002C65CC /* CNCResolutionCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABA02166ECCA002C65CC /* CNCResolutionCenterController.m */; };
+		2708ABA52166ED72002C65CC /* CNCResolutionCenterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABA42166ED72002C65CC /* CNCResolutionCenterModel.m */; };
+		2708ABA92166ED98002C65CC /* CNCResolutionCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABA82166ED98002C65CC /* CNCResolutionCenterView.m */; };
+		2708ABAD2166EE76002C65CC /* CNCResolutionCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABAC2166EE76002C65CC /* CNCResolutionCenterCell.m */; };
+		2708ABB12166F6E0002C65CC /* CNCResolutionCenterMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABB02166F6E0002C65CC /* CNCResolutionCenterMsgModel.m */; };
+		2708ABBA2168F33D002C65CC /* CNCResolutionCenterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABB92168F33D002C65CC /* CNCResolutionCenterHeader.m */; };
+		2708ABBE21690E45002C65CC /* NSString+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABBD21690E45002C65CC /* NSString+CNCExtension.m */; };
+		2708ABC32169E77B002C65CC /* CNCResolutionCenterMsgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABC22169E77B002C65CC /* CNCResolutionCenterMsgController.m */; };
+		2708ABC82169F599002C65CC /* CNCResolutionCenterMsgToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708ABC72169F599002C65CC /* CNCResolutionCenterMsgToolBar.m */; };
+		271D7600215BC07E006A3B84 /* CNCAVersionSetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D75FF215BC07E006A3B84 /* CNCAVersionSetsModel.m */; };
+		271D7605215BC17C006A3B84 /* CNCAVSVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D7604215BC17C006A3B84 /* CNCAVSVersionModel.m */; };
+		271D7609215BC3F8006A3B84 /* CNCAVSVAppIconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D7608215BC3F8006A3B84 /* CNCAVSVAppIconModel.m */; };
+		271D760E215BC5FC006A3B84 /* UIImageView+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D760D215BC5FC006A3B84 /* UIImageView+CNCExtension.m */; };
+		2726C168215F7BED005A0562 /* CNCIgnoreAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726C167215F7BED005A0562 /* CNCIgnoreAppModel.m */; };
+		2726C16C215F7D99005A0562 /* CNCIgnoreAppsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726C16B215F7D99005A0562 /* CNCIgnoreAppsView.m */; };
+		2726C170215F7F14005A0562 /* CNCIgnoreAppsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726C16F215F7F14005A0562 /* CNCIgnoreAppsCell.m */; };
+		274D244B217C4A5E00B19339 /* CNCCollectionNormalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D244A217C4A5E00B19339 /* CNCCollectionNormalLayout.m */; };
+		275AF52221A5622400B54855 /* CNCDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 275AF52121A5622400B54855 /* CNCDetailModel.m */; };
+		275AF52A21A574AF00B54855 /* CNCAppDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275AF52921A574AF00B54855 /* CNCAppDetailView.m */; };
+		275AF52E21A575A600B54855 /* CNCAppDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275AF52D21A575A600B54855 /* CNCAppDetailHeaderView.m */; };
+		275AF53221A5854100B54855 /* NSDictionary+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 275AF53121A5854100B54855 /* NSDictionary+CNCExtension.m */; };
+		275B9E1321A4124D0017196F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275B9E1221A4124D0017196F /* AudioToolbox.framework */; };
+		275F5AAA2186E93D00E3D1F2 /* CNCDetailPlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 275F5AA92186E93D00E3D1F2 /* CNCDetailPlatformModel.m */; };
+		275F5AAE2186E9F700E3D1F2 /* CNCDetailVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 275F5AAD2186E9F700E3D1F2 /* CNCDetailVersionModel.m */; };
+		276C5424217F4C4900D71837 /* CNCAllOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276C5423217F4C4900D71837 /* CNCAllOptionsController.m */; };
+		277676492174700300C2F880 /* UICollectionView+CNCExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 277676482174700300C2F880 /* UICollectionView+CNCExtenison.m */; };
+		2786B1ED217A01F700DFE375 /* CNCPureTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786B1EC217A01F700DFE375 /* CNCPureTableView.m */; };
+		278E7A9F21A7E54800A0505F /* CNCKeywordsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E7A9E21A7E54800A0505F /* CNCKeywordsCell.m */; };
+		278E7AA321A965FE00A0505F /* CNCReleaseNotesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278E7AA221A965FE00A0505F /* CNCReleaseNotesCell.m */; };
+		279A6B85216DAAC800A40071 /* CNCSettingFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 279A6B84216DAAC800A40071 /* CNCSettingFooter.m */; };
+		279A6B92216E163A00A40071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279A6B91216E163A00A40071 /* LaunchScreen.xib */; };
+		279A6B94216E1C4F00A40071 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279A6B93216E1C4E00A40071 /* QuartzCore.framework */; };
+		27A9FA582178721E0046096E /* CNCApplicationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA572178721E0046096E /* CNCApplicationsCell.m */; };
+		27A9FA5D217889DD0046096E /* CNCDIYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA5C217889DD0046096E /* CNCDIYViewController.m */; };
+		27A9FA6121788AE40046096E /* CNCDIYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA6021788AE40046096E /* CNCDIYView.m */; };
+		27A9FA6521788C140046096E /* CNCDIYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA6421788C140046096E /* CNCDIYModel.m */; };
+		27A9FA6921788CD80046096E /* CNCDIYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA6821788CD80046096E /* CNCDIYCell.m */; };
+		27A9FA6D2178A7E90046096E /* CNCCreateAccountHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA6C2178A7E90046096E /* CNCCreateAccountHeaderView.m */; };
+		27A9FA722179AB800046096E /* CNCCollectionNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA712179AB800046096E /* CNCCollectionNormalCell.m */; };
+		27A9FA782179C1E60046096E /* CNCReplyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9FA772179C1E60046096E /* CNCReplyModel.m */; };
+		27B276D3215CECCB00C1975F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B276D2215CECCA00C1975F /* libiconv.tbd */; };
+		27C86968217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C86967217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.m */; };
+		27C8696C217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8696B217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.m */; };
+		27D157CB216350330044992F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D157CA216350330044992F /* MessageUI.framework */; };
+		27D158A92163AFDE0044992F /* CNCAppDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D158A82163AFDE0044992F /* CNCAppDetailModel.m */; };
+		27DC41A221ACEBE900DF9214 /* CNCScreenshotsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DC41A121ACEBE900DF9214 /* CNCScreenshotsCell.m */; };
+		27DC433421AE60A100DF9214 /* CNCTranslateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DC433321AE60A100DF9214 /* CNCTranslateModel.m */; };
+		27DC433821AE616E00DF9214 /* CNCSentencesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DC433721AE616E00DF9214 /* CNCSentencesModel.m */; };
+		27DC433C21AE6CAC00DF9214 /* CNCLanguageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DC433B21AE6CAC00DF9214 /* CNCLanguageModel.m */; };
+		9206348B21578529001FE372 /* CNCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9206348A21578529001FE372 /* CNCWebView.m */; };
+		921279F72155222F000329FC /* CNCAsymptoticLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 921279F62155222F000329FC /* CNCAsymptoticLabel.m */; };
+		92266DBF2143633A00314435 /* CNCAccountManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92266DBE2143633900314435 /* CNCAccountManagerCell.m */; };
+		92266DC32143710500314435 /* QMUIAlertController+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92266DC22143710500314435 /* QMUIAlertController+CNCExtension.m */; };
+		92266DC72143774C00314435 /* NSDate+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92266DC62143774C00314435 /* NSDate+CNCExtension.m */; };
+		925423162139154700F25530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925423152139154700F25530 /* AppDelegate.m */; };
+		9254231E2139154900F25530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9254231D2139154900F25530 /* Assets.xcassets */; };
+		925423242139154900F25530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925423232139154900F25530 /* main.m */; };
+		9291005E2147C098007ADCC2 /* CNCApplicationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291005D2147C098007ADCC2 /* CNCApplicationModel.m */; };
+		92A12AA52153CAA300B88DFF /* CNCAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12AA42153CAA300B88DFF /* CNCAnimationLabel.m */; };
+		92A12AAC2154878000B88DFF /* CNCQueryOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12AAB2154878000B88DFF /* CNCQueryOptionsController.m */; };
+		92A12AAF2154897C00B88DFF /* CNCQueryOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12AAE2154897C00B88DFF /* CNCQueryOptionView.m */; };
+		92A12AB32154899B00B88DFF /* CNCQueryOptionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12AB22154899B00B88DFF /* CNCQueryOptionsCell.m */; };
+		92A12AB62154A49E00B88DFF /* CNCQueryOptionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A12AB52154A49E00B88DFF /* CNCQueryOptionsModel.m */; };
+		92BA1E67214A6B4800C1F7A3 /* CNCNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BA1E66214A6B4800C1F7A3 /* CNCNotification.m */; };
+		92D423E22146874A00C9F915 /* CNCQueryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423E12146874A00C9F915 /* CNCQueryController.m */; };
+		92D423E62146891C00C9F915 /* CNCQueryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423E52146891C00C9F915 /* CNCQueryView.m */; };
+		92D423EC2146896500C9F915 /* CNCCreateAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423EB2146896500C9F915 /* CNCCreateAccountView.m */; };
+		92D423EF214689A000C9F915 /* CNCAccountManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423EE214689A000C9F915 /* CNCAccountManagerView.m */; };
+		92D423F2214689BD00C9F915 /* CNCSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423F1214689BD00C9F915 /* CNCSettingView.m */; };
+		92D423F621468A4800C9F915 /* CNCQueryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423F521468A4800C9F915 /* CNCQueryCell.m */; };
+		92D423FD2147718D00C9F915 /* CNCApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423FC2147718D00C9F915 /* CNCApplicationController.m */; };
+		92D4240021477CA900C9F915 /* CNCApplicationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D423FF21477CA900C9F915 /* CNCApplicationView.m */; };
+		92D424082147819D00C9F915 /* UICollectionViewCell+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D424072147819D00C9F915 /* UICollectionViewCell+CNCExtension.m */; };
+		92E3116E213F79D70095F1CC /* CNCCreateAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E3116D213F79D70095F1CC /* CNCCreateAccountModel.m */; };
+		92E31171213F7B580095F1CC /* CNCCreateAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E31170213F7B580095F1CC /* CNCCreateAccountCell.m */; };
+		92F95E292154F42900D8B03C /* CNCAppDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F95E282154F42900D8B03C /* CNCAppDetailController.m */; };
+		92F95E2E2154F87D00D8B03C /* CNCReplyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F95E2D2154F87D00D8B03C /* CNCReplyController.m */; };
+		92F95E38215511D600D8B03C /* CNCQCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F95E37215511D600D8B03C /* CNCQCLoginController.m */; };
+		92F95E40215512FC00D8B03C /* CNCQCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F95E3F215512FC00D8B03C /* CNCQCLoginView.m */; };
+		92FE16EA213BAF5C00FB238A /* AppDelegate+CNCExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16E9213BAF5C00FB238A /* AppDelegate+CNCExtenison.m */; };
+		92FE16F0213BB04800FB238A /* CNCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16EF213BB04800FB238A /* CNCViewController.m */; };
+		92FE16F4213BB07600FB238A /* CNCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16F3213BB07600FB238A /* CNCNavigationController.m */; };
+		92FE16F8213BB09D00FB238A /* CNCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16F7213BB09D00FB238A /* CNCTabBarViewController.m */; };
+		92FE16FC213BB0C400FB238A /* CNCActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16FB213BB0C400FB238A /* CNCActivityViewController.m */; };
+		92FE1700213BB24500FB238A /* CNCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE16FF213BB24500FB238A /* CNCNetwork.m */; };
+		92FE1705213BB65D00FB238A /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1704213BB65D00FB238A /* QMUIConfigurationTemplate.m */; };
+		92FE1709213BB8DC00FB238A /* UIView+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1708213BB8DC00FB238A /* UIView+CNCExtension.m */; };
+		92FE170D213BBAE200FB238A /* UIViewController+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE170C213BBAE200FB238A /* UIViewController+CNCExtension.m */; };
+		92FE1711213BBB7B00FB238A /* UITableView+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1710213BBB7B00FB238A /* UITableView+CNCExtension.m */; };
+		92FE1716213BBD5500FB238A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1714213BBD5500FB238A /* NSArray+Log.m */; };
+		92FE171A213BD54300FB238A /* CNCTabBarViewController+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1719213BD54300FB238A /* CNCTabBarViewController+CNCExtension.m */; };
+		92FE171F213BD73400FB238A /* CNCSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE171E213BD73400FB238A /* CNCSettingController.m */; };
+		92FE1734213BDD4700FB238A /* CNCSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1733213BDD4700FB238A /* CNCSettingModel.m */; };
+		92FE1738213BE0F200FB238A /* QMUITableViewCell+CNCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1737213BE0F200FB238A /* QMUITableViewCell+CNCExtension.m */; };
+		92FE173D213BE22600FB238A /* CNCSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE173C213BE22600FB238A /* CNCSettingCell.m */; };
+		92FE1741213BF8D200FB238A /* CNCSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1740213BF8D200FB238A /* CNCSettingHeaderView.m */; };
+		92FE1747213CC80000FB238A /* CNCAccountManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1746213CC80000FB238A /* CNCAccountManagerController.m */; };
+		92FE174C213CE33400FB238A /* CNCAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE174B213CE33400FB238A /* CNCAccountModel.m */; };
+		92FE1750213CE60C00FB238A /* CNCSQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE174F213CE60C00FB238A /* CNCSQLManager.m */; };
+		92FE1756213D102C00FB238A /* CNCIgnoreAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE1755213D102C00FB238A /* CNCIgnoreAppsViewController.m */; };
+		92FE175F213D48E900FB238A /* CNCCreateAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE175E213D48E900FB238A /* CNCCreateAccountController.m */; };
+		D6626005EF57B21A8FADC31B /* libPods-Connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D954A3E1A009AB9582CF3AB /* libPods-Connect.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12290E2ADC527A29BD947089 /* Pods-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.debug.xcconfig"; sourceTree = "<group>"; };
+		2708AB9F2166ECCA002C65CC /* CNCResolutionCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterController.h; sourceTree = "<group>"; };
+		2708ABA02166ECCA002C65CC /* CNCResolutionCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterController.m; sourceTree = "<group>"; };
+		2708ABA32166ED72002C65CC /* CNCResolutionCenterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterModel.h; sourceTree = "<group>"; };
+		2708ABA42166ED72002C65CC /* CNCResolutionCenterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterModel.m; sourceTree = "<group>"; };
+		2708ABA72166ED98002C65CC /* CNCResolutionCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterView.h; sourceTree = "<group>"; };
+		2708ABA82166ED98002C65CC /* CNCResolutionCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterView.m; sourceTree = "<group>"; };
+		2708ABAB2166EE76002C65CC /* CNCResolutionCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterCell.h; sourceTree = "<group>"; };
+		2708ABAC2166EE76002C65CC /* CNCResolutionCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterCell.m; sourceTree = "<group>"; };
+		2708ABAF2166F6E0002C65CC /* CNCResolutionCenterMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterMsgModel.h; sourceTree = "<group>"; };
+		2708ABB02166F6E0002C65CC /* CNCResolutionCenterMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterMsgModel.m; sourceTree = "<group>"; };
+		2708ABB62168EB1E002C65CC /* Connect_Note.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Connect_Note.md; sourceTree = "<group>"; };
+		2708ABB82168F33D002C65CC /* CNCResolutionCenterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterHeader.h; sourceTree = "<group>"; };
+		2708ABB92168F33D002C65CC /* CNCResolutionCenterHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterHeader.m; sourceTree = "<group>"; };
+		2708ABBC21690E45002C65CC /* NSString+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CNCExtension.h"; sourceTree = "<group>"; };
+		2708ABBD21690E45002C65CC /* NSString+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CNCExtension.m"; sourceTree = "<group>"; };
+		2708ABC12169E77B002C65CC /* CNCResolutionCenterMsgController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterMsgController.h; sourceTree = "<group>"; };
+		2708ABC22169E77B002C65CC /* CNCResolutionCenterMsgController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterMsgController.m; sourceTree = "<group>"; };
+		2708ABC62169F599002C65CC /* CNCResolutionCenterMsgToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCResolutionCenterMsgToolBar.h; sourceTree = "<group>"; };
+		2708ABC72169F599002C65CC /* CNCResolutionCenterMsgToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCResolutionCenterMsgToolBar.m; sourceTree = "<group>"; };
+		271D75FE215BC07E006A3B84 /* CNCAVersionSetsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAVersionSetsModel.h; sourceTree = "<group>"; };
+		271D75FF215BC07E006A3B84 /* CNCAVersionSetsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAVersionSetsModel.m; sourceTree = "<group>"; };
+		271D7603215BC17C006A3B84 /* CNCAVSVersionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAVSVersionModel.h; sourceTree = "<group>"; };
+		271D7604215BC17C006A3B84 /* CNCAVSVersionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAVSVersionModel.m; sourceTree = "<group>"; };
+		271D7607215BC3F8006A3B84 /* CNCAVSVAppIconModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAVSVAppIconModel.h; sourceTree = "<group>"; };
+		271D7608215BC3F8006A3B84 /* CNCAVSVAppIconModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAVSVAppIconModel.m; sourceTree = "<group>"; };
+		271D760C215BC5FC006A3B84 /* UIImageView+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CNCExtension.h"; sourceTree = "<group>"; };
+		271D760D215BC5FC006A3B84 /* UIImageView+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CNCExtension.m"; sourceTree = "<group>"; };
+		2726C166215F7BED005A0562 /* CNCIgnoreAppModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCIgnoreAppModel.h; sourceTree = "<group>"; };
+		2726C167215F7BED005A0562 /* CNCIgnoreAppModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCIgnoreAppModel.m; sourceTree = "<group>"; };
+		2726C16A215F7D99005A0562 /* CNCIgnoreAppsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCIgnoreAppsView.h; sourceTree = "<group>"; };
+		2726C16B215F7D99005A0562 /* CNCIgnoreAppsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCIgnoreAppsView.m; sourceTree = "<group>"; };
+		2726C16E215F7F14005A0562 /* CNCIgnoreAppsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCIgnoreAppsCell.h; sourceTree = "<group>"; };
+		2726C16F215F7F14005A0562 /* CNCIgnoreAppsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCIgnoreAppsCell.m; sourceTree = "<group>"; };
+		2726C17121608BBB005A0562 /* Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Connect.entitlements; sourceTree = "<group>"; };
+		2726C17221608E14005A0562 /* Connect_String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_String.h; sourceTree = "<group>"; };
+		274D2449217C4A5E00B19339 /* CNCCollectionNormalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCollectionNormalLayout.h; sourceTree = "<group>"; };
+		274D244A217C4A5E00B19339 /* CNCCollectionNormalLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCollectionNormalLayout.m; sourceTree = "<group>"; };
+		275AF52021A5622400B54855 /* CNCDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDetailModel.h; sourceTree = "<group>"; };
+		275AF52121A5622400B54855 /* CNCDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDetailModel.m; sourceTree = "<group>"; };
+		275AF52821A574AF00B54855 /* CNCAppDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAppDetailView.h; sourceTree = "<group>"; };
+		275AF52921A574AF00B54855 /* CNCAppDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAppDetailView.m; sourceTree = "<group>"; };
+		275AF52C21A575A600B54855 /* CNCAppDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAppDetailHeaderView.h; sourceTree = "<group>"; };
+		275AF52D21A575A600B54855 /* CNCAppDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAppDetailHeaderView.m; sourceTree = "<group>"; };
+		275AF53021A5854100B54855 /* NSDictionary+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CNCExtension.h"; sourceTree = "<group>"; };
+		275AF53121A5854100B54855 /* NSDictionary+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CNCExtension.m"; sourceTree = "<group>"; };
+		275B9E1221A4124D0017196F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		275F5AA82186E93D00E3D1F2 /* CNCDetailPlatformModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDetailPlatformModel.h; sourceTree = "<group>"; };
+		275F5AA92186E93D00E3D1F2 /* CNCDetailPlatformModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDetailPlatformModel.m; sourceTree = "<group>"; };
+		275F5AAC2186E9F700E3D1F2 /* CNCDetailVersionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDetailVersionModel.h; sourceTree = "<group>"; };
+		275F5AAD2186E9F700E3D1F2 /* CNCDetailVersionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDetailVersionModel.m; sourceTree = "<group>"; };
+		276C5422217F4C4900D71837 /* CNCAllOptionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAllOptionsController.h; sourceTree = "<group>"; };
+		276C5423217F4C4900D71837 /* CNCAllOptionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAllOptionsController.m; sourceTree = "<group>"; };
+		277676472174700300C2F880 /* UICollectionView+CNCExtenison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CNCExtenison.h"; sourceTree = "<group>"; };
+		277676482174700300C2F880 /* UICollectionView+CNCExtenison.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CNCExtenison.m"; sourceTree = "<group>"; };
+		2786B1EB217A01F700DFE375 /* CNCPureTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCPureTableView.h; sourceTree = "<group>"; };
+		2786B1EC217A01F700DFE375 /* CNCPureTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCPureTableView.m; sourceTree = "<group>"; };
+		278E7A9D21A7E54800A0505F /* CNCKeywordsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCKeywordsCell.h; sourceTree = "<group>"; };
+		278E7A9E21A7E54800A0505F /* CNCKeywordsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCKeywordsCell.m; sourceTree = "<group>"; };
+		278E7AA121A965FE00A0505F /* CNCReleaseNotesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCReleaseNotesCell.h; sourceTree = "<group>"; };
+		278E7AA221A965FE00A0505F /* CNCReleaseNotesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCReleaseNotesCell.m; sourceTree = "<group>"; };
+		279A6B83216DAAC800A40071 /* CNCSettingFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingFooter.h; sourceTree = "<group>"; };
+		279A6B84216DAAC800A40071 /* CNCSettingFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingFooter.m; sourceTree = "<group>"; };
+		279A6B91216E163A00A40071 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		279A6B93216E1C4E00A40071 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27A9FA562178721E0046096E /* CNCApplicationsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCApplicationsCell.h; sourceTree = "<group>"; };
+		27A9FA572178721E0046096E /* CNCApplicationsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCApplicationsCell.m; sourceTree = "<group>"; };
+		27A9FA5B217889DD0046096E /* CNCDIYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDIYViewController.h; sourceTree = "<group>"; };
+		27A9FA5C217889DD0046096E /* CNCDIYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDIYViewController.m; sourceTree = "<group>"; };
+		27A9FA5F21788AE40046096E /* CNCDIYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDIYView.h; sourceTree = "<group>"; };
+		27A9FA6021788AE40046096E /* CNCDIYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDIYView.m; sourceTree = "<group>"; };
+		27A9FA6321788C140046096E /* CNCDIYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDIYModel.h; sourceTree = "<group>"; };
+		27A9FA6421788C140046096E /* CNCDIYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDIYModel.m; sourceTree = "<group>"; };
+		27A9FA6721788CD80046096E /* CNCDIYCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCDIYCell.h; sourceTree = "<group>"; };
+		27A9FA6821788CD80046096E /* CNCDIYCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCDIYCell.m; sourceTree = "<group>"; };
+		27A9FA6B2178A7E90046096E /* CNCCreateAccountHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCreateAccountHeaderView.h; sourceTree = "<group>"; };
+		27A9FA6C2178A7E90046096E /* CNCCreateAccountHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCreateAccountHeaderView.m; sourceTree = "<group>"; };
+		27A9FA702179AB800046096E /* CNCCollectionNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCollectionNormalCell.h; sourceTree = "<group>"; };
+		27A9FA712179AB800046096E /* CNCCollectionNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCollectionNormalCell.m; sourceTree = "<group>"; };
+		27A9FA762179C1E60046096E /* CNCReplyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCReplyModel.h; sourceTree = "<group>"; };
+		27A9FA772179C1E60046096E /* CNCReplyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCReplyModel.m; sourceTree = "<group>"; };
+		27B276D2215CECCA00C1975F /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		27C86966217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCTransitionPresenPushStyleAnimator.h; sourceTree = "<group>"; };
+		27C86967217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCTransitionPresenPushStyleAnimator.m; sourceTree = "<group>"; };
+		27C8696A217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCTransitionDismissPopStyleAnimator.h; sourceTree = "<group>"; };
+		27C8696B217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCTransitionDismissPopStyleAnimator.m; sourceTree = "<group>"; };
+		27D157CA216350330044992F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		27D158A72163AFDE0044992F /* CNCAppDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAppDetailModel.h; sourceTree = "<group>"; };
+		27D158A82163AFDE0044992F /* CNCAppDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAppDetailModel.m; sourceTree = "<group>"; };
+		27DC41A021ACEBE900DF9214 /* CNCScreenshotsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCScreenshotsCell.h; sourceTree = "<group>"; };
+		27DC41A121ACEBE900DF9214 /* CNCScreenshotsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCScreenshotsCell.m; sourceTree = "<group>"; };
+		27DC433221AE60A100DF9214 /* CNCTranslateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCTranslateModel.h; sourceTree = "<group>"; };
+		27DC433321AE60A100DF9214 /* CNCTranslateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCTranslateModel.m; sourceTree = "<group>"; };
+		27DC433621AE616E00DF9214 /* CNCSentencesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSentencesModel.h; sourceTree = "<group>"; };
+		27DC433721AE616E00DF9214 /* CNCSentencesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSentencesModel.m; sourceTree = "<group>"; };
+		27DC433A21AE6CAC00DF9214 /* CNCLanguageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCLanguageModel.h; sourceTree = "<group>"; };
+		27DC433B21AE6CAC00DF9214 /* CNCLanguageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCLanguageModel.m; sourceTree = "<group>"; };
+		353DFB8FF3A7B9CA3B02311B /* Pods-Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.release.xcconfig"; sourceTree = "<group>"; };
+		4D954A3E1A009AB9582CF3AB /* libPods-Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9206348921578529001FE372 /* CNCWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCWebView.h; sourceTree = "<group>"; };
+		9206348A21578529001FE372 /* CNCWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCWebView.m; sourceTree = "<group>"; };
+		921279F52155222F000329FC /* CNCAsymptoticLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAsymptoticLabel.h; sourceTree = "<group>"; };
+		921279F62155222F000329FC /* CNCAsymptoticLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAsymptoticLabel.m; sourceTree = "<group>"; };
+		92266DBD2143633900314435 /* CNCAccountManagerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAccountManagerCell.h; sourceTree = "<group>"; };
+		92266DBE2143633900314435 /* CNCAccountManagerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAccountManagerCell.m; sourceTree = "<group>"; };
+		92266DC12143710500314435 /* QMUIAlertController+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMUIAlertController+CNCExtension.h"; sourceTree = "<group>"; };
+		92266DC22143710500314435 /* QMUIAlertController+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QMUIAlertController+CNCExtension.m"; sourceTree = "<group>"; };
+		92266DC52143774C00314435 /* NSDate+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+CNCExtension.h"; sourceTree = "<group>"; };
+		92266DC62143774C00314435 /* NSDate+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CNCExtension.m"; sourceTree = "<group>"; };
+		92266E572143B07D00314435 /* Connect_Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Font.h; sourceTree = "<group>"; };
+		923A0085215A2F9700EABBF1 /* Connect_Regular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Regular.h; sourceTree = "<group>"; };
+		925423112139154700F25530 /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925423142139154700F25530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		925423152139154700F25530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9254231D2139154900F25530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925423222139154900F25530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925423232139154900F25530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9291005C2147C098007ADCC2 /* CNCApplicationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCApplicationModel.h; sourceTree = "<group>"; };
+		9291005D2147C098007ADCC2 /* CNCApplicationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCApplicationModel.m; sourceTree = "<group>"; };
+		92A12AA32153CAA300B88DFF /* CNCAnimationLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAnimationLabel.h; sourceTree = "<group>"; };
+		92A12AA42153CAA300B88DFF /* CNCAnimationLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAnimationLabel.m; sourceTree = "<group>"; };
+		92A12AAA2154878000B88DFF /* CNCQueryOptionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryOptionsController.h; sourceTree = "<group>"; };
+		92A12AAB2154878000B88DFF /* CNCQueryOptionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryOptionsController.m; sourceTree = "<group>"; };
+		92A12AAD2154897C00B88DFF /* CNCQueryOptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryOptionView.h; sourceTree = "<group>"; };
+		92A12AAE2154897C00B88DFF /* CNCQueryOptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryOptionView.m; sourceTree = "<group>"; };
+		92A12AB12154899B00B88DFF /* CNCQueryOptionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryOptionsCell.h; sourceTree = "<group>"; };
+		92A12AB22154899B00B88DFF /* CNCQueryOptionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryOptionsCell.m; sourceTree = "<group>"; };
+		92A12AB42154A49E00B88DFF /* CNCQueryOptionsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryOptionsModel.h; sourceTree = "<group>"; };
+		92A12AB52154A49E00B88DFF /* CNCQueryOptionsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryOptionsModel.m; sourceTree = "<group>"; };
+		92BA1E65214A6B4800C1F7A3 /* CNCNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCNotification.h; sourceTree = "<group>"; };
+		92BA1E66214A6B4800C1F7A3 /* CNCNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCNotification.m; sourceTree = "<group>"; };
+		92BA1E68214A6E6E00C1F7A3 /* Connect_NotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_NotificationName.h; sourceTree = "<group>"; };
+		92D423E02146874A00C9F915 /* CNCQueryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryController.h; sourceTree = "<group>"; };
+		92D423E12146874A00C9F915 /* CNCQueryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryController.m; sourceTree = "<group>"; };
+		92D423E42146891C00C9F915 /* CNCQueryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryView.h; sourceTree = "<group>"; };
+		92D423E52146891C00C9F915 /* CNCQueryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryView.m; sourceTree = "<group>"; };
+		92D423EA2146896500C9F915 /* CNCCreateAccountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCreateAccountView.h; sourceTree = "<group>"; };
+		92D423EB2146896500C9F915 /* CNCCreateAccountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCreateAccountView.m; sourceTree = "<group>"; };
+		92D423ED214689A000C9F915 /* CNCAccountManagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAccountManagerView.h; sourceTree = "<group>"; };
+		92D423EE214689A000C9F915 /* CNCAccountManagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAccountManagerView.m; sourceTree = "<group>"; };
+		92D423F0214689BD00C9F915 /* CNCSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingView.h; sourceTree = "<group>"; };
+		92D423F1214689BD00C9F915 /* CNCSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingView.m; sourceTree = "<group>"; };
+		92D423F421468A4800C9F915 /* CNCQueryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQueryCell.h; sourceTree = "<group>"; };
+		92D423F521468A4800C9F915 /* CNCQueryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQueryCell.m; sourceTree = "<group>"; };
+		92D423FB2147718D00C9F915 /* CNCApplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCApplicationController.h; sourceTree = "<group>"; };
+		92D423FC2147718D00C9F915 /* CNCApplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCApplicationController.m; sourceTree = "<group>"; };
+		92D423FE21477CA900C9F915 /* CNCApplicationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCApplicationView.h; sourceTree = "<group>"; };
+		92D423FF21477CA900C9F915 /* CNCApplicationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCApplicationView.m; sourceTree = "<group>"; };
+		92D424062147819D00C9F915 /* UICollectionViewCell+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+CNCExtension.h"; sourceTree = "<group>"; };
+		92D424072147819D00C9F915 /* UICollectionViewCell+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+CNCExtension.m"; sourceTree = "<group>"; };
+		92E3116C213F79D70095F1CC /* CNCCreateAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCreateAccountModel.h; sourceTree = "<group>"; };
+		92E3116D213F79D70095F1CC /* CNCCreateAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCreateAccountModel.m; sourceTree = "<group>"; };
+		92E3116F213F7B580095F1CC /* CNCCreateAccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCreateAccountCell.h; sourceTree = "<group>"; };
+		92E31170213F7B580095F1CC /* CNCCreateAccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCreateAccountCell.m; sourceTree = "<group>"; };
+		92F93E772159F28300647C01 /* Connect_UrlHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_UrlHost.h; sourceTree = "<group>"; };
+		92F95E272154F42900D8B03C /* CNCAppDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAppDetailController.h; sourceTree = "<group>"; };
+		92F95E282154F42900D8B03C /* CNCAppDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAppDetailController.m; sourceTree = "<group>"; };
+		92F95E2C2154F87D00D8B03C /* CNCReplyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCReplyController.h; sourceTree = "<group>"; };
+		92F95E2D2154F87D00D8B03C /* CNCReplyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCReplyController.m; sourceTree = "<group>"; };
+		92F95E36215511D600D8B03C /* CNCQCLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQCLoginController.h; sourceTree = "<group>"; };
+		92F95E37215511D600D8B03C /* CNCQCLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQCLoginController.m; sourceTree = "<group>"; };
+		92F95E3E215512FC00D8B03C /* CNCQCLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCQCLoginView.h; sourceTree = "<group>"; };
+		92F95E3F215512FC00D8B03C /* CNCQCLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCQCLoginView.m; sourceTree = "<group>"; };
+		92FDA7E92150CA7E0039B339 /* Connect_Enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Enum.h; sourceTree = "<group>"; };
+		92FE16E3213BAE8600FB238A /* Connect.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect.pch; sourceTree = "<group>"; };
+		92FE16E8213BAF5C00FB238A /* AppDelegate+CNCExtenison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CNCExtenison.h"; sourceTree = "<group>"; };
+		92FE16E9213BAF5C00FB238A /* AppDelegate+CNCExtenison.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CNCExtenison.m"; sourceTree = "<group>"; };
+		92FE16EE213BB04800FB238A /* CNCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCViewController.h; sourceTree = "<group>"; };
+		92FE16EF213BB04800FB238A /* CNCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCViewController.m; sourceTree = "<group>"; };
+		92FE16F2213BB07600FB238A /* CNCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCNavigationController.h; sourceTree = "<group>"; };
+		92FE16F3213BB07600FB238A /* CNCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCNavigationController.m; sourceTree = "<group>"; };
+		92FE16F6213BB09D00FB238A /* CNCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCTabBarViewController.h; sourceTree = "<group>"; };
+		92FE16F7213BB09D00FB238A /* CNCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCTabBarViewController.m; sourceTree = "<group>"; };
+		92FE16FA213BB0C400FB238A /* CNCActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCActivityViewController.h; sourceTree = "<group>"; };
+		92FE16FB213BB0C400FB238A /* CNCActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCActivityViewController.m; sourceTree = "<group>"; };
+		92FE16FE213BB24500FB238A /* CNCNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCNetwork.h; sourceTree = "<group>"; };
+		92FE16FF213BB24500FB238A /* CNCNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCNetwork.m; sourceTree = "<group>"; };
+		92FE1701213BB25D00FB238A /* Connect_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_Header.h; sourceTree = "<group>"; };
+		92FE1703213BB65D00FB238A /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		92FE1704213BB65D00FB238A /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		92FE1707213BB8DC00FB238A /* UIView+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CNCExtension.h"; sourceTree = "<group>"; };
+		92FE1708213BB8DC00FB238A /* UIView+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CNCExtension.m"; sourceTree = "<group>"; };
+		92FE170B213BBAE200FB238A /* UIViewController+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CNCExtension.h"; sourceTree = "<group>"; };
+		92FE170C213BBAE200FB238A /* UIViewController+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CNCExtension.m"; sourceTree = "<group>"; };
+		92FE170F213BBB7B00FB238A /* UITableView+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+CNCExtension.h"; sourceTree = "<group>"; };
+		92FE1710213BBB7B00FB238A /* UITableView+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CNCExtension.m"; sourceTree = "<group>"; };
+		92FE1712213BBD1D00FB238A /* Connect_NSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_NSLog.h; sourceTree = "<group>"; };
+		92FE1714213BBD5500FB238A /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		92FE1715213BBD5500FB238A /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		92FE1718213BD54300FB238A /* CNCTabBarViewController+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CNCTabBarViewController+CNCExtension.h"; sourceTree = "<group>"; };
+		92FE1719213BD54300FB238A /* CNCTabBarViewController+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CNCTabBarViewController+CNCExtension.m"; sourceTree = "<group>"; };
+		92FE171D213BD73400FB238A /* CNCSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingController.h; sourceTree = "<group>"; };
+		92FE171E213BD73400FB238A /* CNCSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingController.m; sourceTree = "<group>"; };
+		92FE1732213BDD4700FB238A /* CNCSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingModel.h; sourceTree = "<group>"; };
+		92FE1733213BDD4700FB238A /* CNCSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingModel.m; sourceTree = "<group>"; };
+		92FE1736213BE0F200FB238A /* QMUITableViewCell+CNCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMUITableViewCell+CNCExtension.h"; sourceTree = "<group>"; };
+		92FE1737213BE0F200FB238A /* QMUITableViewCell+CNCExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QMUITableViewCell+CNCExtension.m"; sourceTree = "<group>"; };
+		92FE173B213BE22600FB238A /* CNCSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingCell.h; sourceTree = "<group>"; };
+		92FE173C213BE22600FB238A /* CNCSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingCell.m; sourceTree = "<group>"; };
+		92FE173F213BF8D200FB238A /* CNCSettingHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSettingHeaderView.h; sourceTree = "<group>"; };
+		92FE1740213BF8D200FB238A /* CNCSettingHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSettingHeaderView.m; sourceTree = "<group>"; };
+		92FE1742213BFD2700FB238A /* Connect_UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_UserDefaults.h; sourceTree = "<group>"; };
+		92FE1745213CC80000FB238A /* CNCAccountManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAccountManagerController.h; sourceTree = "<group>"; };
+		92FE1746213CC80000FB238A /* CNCAccountManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAccountManagerController.m; sourceTree = "<group>"; };
+		92FE174A213CE33400FB238A /* CNCAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCAccountModel.h; sourceTree = "<group>"; };
+		92FE174B213CE33400FB238A /* CNCAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCAccountModel.m; sourceTree = "<group>"; };
+		92FE174E213CE60C00FB238A /* CNCSQLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCSQLManager.h; sourceTree = "<group>"; };
+		92FE174F213CE60C00FB238A /* CNCSQLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCSQLManager.m; sourceTree = "<group>"; };
+		92FE1751213CE94A00FB238A /* Connect_SQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect_SQL.h; sourceTree = "<group>"; };
+		92FE1754213D102C00FB238A /* CNCIgnoreAppsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCIgnoreAppsController.h; sourceTree = "<group>"; };
+		92FE1755213D102C00FB238A /* CNCIgnoreAppsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCIgnoreAppsViewController.m; sourceTree = "<group>"; };
+		92FE175D213D48E900FB238A /* CNCCreateAccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNCCreateAccountController.h; sourceTree = "<group>"; };
+		92FE175E213D48E900FB238A /* CNCCreateAccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNCCreateAccountController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9254230E2139154700F25530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275B9E1321A4124D0017196F /* AudioToolbox.framework in Frameworks */,
+				279A6B94216E1C4F00A40071 /* QuartzCore.framework in Frameworks */,
+				27D157CB216350330044992F /* MessageUI.framework in Frameworks */,
+				D6626005EF57B21A8FADC31B /* libPods-Connect.a in Frameworks */,
+				27B276D3215CECCB00C1975F /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2F073317BA41859E508872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275B9E1221A4124D0017196F /* AudioToolbox.framework */,
+				279A6B93216E1C4E00A40071 /* QuartzCore.framework */,
+				27D157CA216350330044992F /* MessageUI.framework */,
+				27B276D2215CECCA00C1975F /* libiconv.tbd */,
+				4D954A3E1A009AB9582CF3AB /* libPods-Connect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2708AB9D2166ECB0002C65CC /* ResolutionCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABA62166ED75002C65CC /* View */,
+				2708ABA22166ED5F002C65CC /* Model */,
+				2708AB9E2166ECBA002C65CC /* Controller */,
+			);
+			path = ResolutionCenter;
+			sourceTree = "<group>";
+		};
+		2708AB9E2166ECBA002C65CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2708AB9F2166ECCA002C65CC /* CNCResolutionCenterController.h */,
+				2708ABA02166ECCA002C65CC /* CNCResolutionCenterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2708ABA22166ED5F002C65CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABAE2166F6C0002C65CC /* Messages */,
+				2708ABA32166ED72002C65CC /* CNCResolutionCenterModel.h */,
+				2708ABA42166ED72002C65CC /* CNCResolutionCenterModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2708ABA62166ED75002C65CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABB72168F32B002C65CC /* Header */,
+				2708ABAA2166EE67002C65CC /* Cell */,
+				2708ABA72166ED98002C65CC /* CNCResolutionCenterView.h */,
+				2708ABA82166ED98002C65CC /* CNCResolutionCenterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2708ABAA2166EE67002C65CC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABAB2166EE76002C65CC /* CNCResolutionCenterCell.h */,
+				2708ABAC2166EE76002C65CC /* CNCResolutionCenterCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2708ABAE2166F6C0002C65CC /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABAF2166F6E0002C65CC /* CNCResolutionCenterMsgModel.h */,
+				2708ABB02166F6E0002C65CC /* CNCResolutionCenterMsgModel.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		2708ABB72168F32B002C65CC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABB82168F33D002C65CC /* CNCResolutionCenterHeader.h */,
+				2708ABB92168F33D002C65CC /* CNCResolutionCenterHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		2708ABBB21690E2C002C65CC /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABBC21690E45002C65CC /* NSString+CNCExtension.h */,
+				2708ABBD21690E45002C65CC /* NSString+CNCExtension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		2708ABBF2169E74B002C65CC /* ResolutionCenterMsg */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA752179C19B0046096E /* Model */,
+				2708ABC42169F55D002C65CC /* View */,
+				2708ABC02169E760002C65CC /* Controller */,
+			);
+			path = ResolutionCenterMsg;
+			sourceTree = "<group>";
+		};
+		2708ABC02169E760002C65CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABC12169E77B002C65CC /* CNCResolutionCenterMsgController.h */,
+				2708ABC22169E77B002C65CC /* CNCResolutionCenterMsgController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2708ABC42169F55D002C65CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABC52169F561002C65CC /* ToolBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2708ABC52169F561002C65CC /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				2708ABC62169F599002C65CC /* CNCResolutionCenterMsgToolBar.h */,
+				2708ABC72169F599002C65CC /* CNCResolutionCenterMsgToolBar.m */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		271D7601215BC084006A3B84 /* VersionSets */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6E21798CEE0046096E /* QueryOptions */,
+				271D7602215BC143006A3B84 /* Version */,
+				271D75FE215BC07E006A3B84 /* CNCAVersionSetsModel.h */,
+				271D75FF215BC07E006A3B84 /* CNCAVersionSetsModel.m */,
+			);
+			path = VersionSets;
+			sourceTree = "<group>";
+		};
+		271D7602215BC143006A3B84 /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				271D7606215BC3CA006A3B84 /* LargeAppIcon */,
+				271D7603215BC17C006A3B84 /* CNCAVSVersionModel.h */,
+				271D7604215BC17C006A3B84 /* CNCAVSVersionModel.m */,
+			);
+			path = Version;
+			sourceTree = "<group>";
+		};
+		271D7606215BC3CA006A3B84 /* LargeAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				271D7607215BC3F8006A3B84 /* CNCAVSVAppIconModel.h */,
+				271D7608215BC3F8006A3B84 /* CNCAVSVAppIconModel.m */,
+			);
+			path = LargeAppIcon;
+			sourceTree = "<group>";
+		};
+		271D760A215BC5BB006A3B84 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				271D760C215BC5FC006A3B84 /* UIImageView+CNCExtension.h */,
+				271D760D215BC5FC006A3B84 /* UIImageView+CNCExtension.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		2726C165215F7BD1005A0562 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2726C166215F7BED005A0562 /* CNCIgnoreAppModel.h */,
+				2726C167215F7BED005A0562 /* CNCIgnoreAppModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2726C169215F7D7F005A0562 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2726C16D215F7EFE005A0562 /* Cell */,
+				2726C16A215F7D99005A0562 /* CNCIgnoreAppsView.h */,
+				2726C16B215F7D99005A0562 /* CNCIgnoreAppsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2726C16D215F7EFE005A0562 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2726C16E215F7F14005A0562 /* CNCIgnoreAppsCell.h */,
+				2726C16F215F7F14005A0562 /* CNCIgnoreAppsCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		274D243E217C25D800B19339 /* AccountModul */ = {
+			isa = PBXGroup;
+			children = (
+				92FE175B213D48CF00FB238A /* CreateAccount */,
+				92FE1743213CC7E200FB238A /* AccountManager */,
+			);
+			path = AccountModul;
+			sourceTree = "<group>";
+		};
+		274D2447217C49C300B19339 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				274D2448217C49D600B19339 /* CNCCollectionNormalLayout */,
+				27C86969217AC922007AAE2A /* CNCTransitionDismissPopStyleAnimator */,
+				27C86965217AC70C007AAE2A /* CNCTransitionPresenPushStyleAnimator */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		274D2448217C49D600B19339 /* CNCCollectionNormalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				274D2449217C4A5E00B19339 /* CNCCollectionNormalLayout.h */,
+				274D244A217C4A5E00B19339 /* CNCCollectionNormalLayout.m */,
+			);
+			path = CNCCollectionNormalLayout;
+			sourceTree = "<group>";
+		};
+		275AF51921A561D500B54855 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				275AF52021A5622400B54855 /* CNCDetailModel.h */,
+				275AF52121A5622400B54855 /* CNCDetailModel.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		275AF52721A56D2500B54855 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				278E7A9B21A7E51100A0505F /* Cell */,
+				275AF52B21A5758D00B54855 /* Header */,
+				275AF52821A574AF00B54855 /* CNCAppDetailView.h */,
+				275AF52921A574AF00B54855 /* CNCAppDetailView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		275AF52B21A5758D00B54855 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				275AF52C21A575A600B54855 /* CNCAppDetailHeaderView.h */,
+				275AF52D21A575A600B54855 /* CNCAppDetailHeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		275AF52F21A5851F00B54855 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				275AF53021A5854100B54855 /* NSDictionary+CNCExtension.h */,
+				275AF53121A5854100B54855 /* NSDictionary+CNCExtension.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		275F5AA62186E8F900E3D1F2 /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				275F5AAB2186E99600E3D1F2 /* Version */,
+				275F5AA82186E93D00E3D1F2 /* CNCDetailPlatformModel.h */,
+				275F5AA92186E93D00E3D1F2 /* CNCDetailPlatformModel.m */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		275F5AAB2186E99600E3D1F2 /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				275F5AAC2186E9F700E3D1F2 /* CNCDetailVersionModel.h */,
+				275F5AAD2186E9F700E3D1F2 /* CNCDetailVersionModel.m */,
+			);
+			path = Version;
+			sourceTree = "<group>";
+		};
+		276C5420217F4C2000D71837 /* AllOptions */ = {
+			isa = PBXGroup;
+			children = (
+				276C5421217F4C3500D71837 /* Controller */,
+			);
+			path = AllOptions;
+			sourceTree = "<group>";
+		};
+		276C5421217F4C3500D71837 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				276C5422217F4C4900D71837 /* CNCAllOptionsController.h */,
+				276C5423217F4C4900D71837 /* CNCAllOptionsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2776764621746FEA00C2F880 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				277676472174700300C2F880 /* UICollectionView+CNCExtenison.h */,
+				277676482174700300C2F880 /* UICollectionView+CNCExtenison.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		2786B1EA217A01B100DFE375 /* PureTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2786B1EB217A01F700DFE375 /* CNCPureTableView.h */,
+				2786B1EC217A01F700DFE375 /* CNCPureTableView.m */,
+			);
+			path = PureTableView;
+			sourceTree = "<group>";
+		};
+		278E7A9B21A7E51100A0505F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27DC419F21ACEBD000DF9214 /* Screenshots */,
+				278E7AA021A965EE00A0505F /* ReleaseNotes */,
+				278E7A9C21A7E52900A0505F /* Keywords */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		278E7A9C21A7E52900A0505F /* Keywords */ = {
+			isa = PBXGroup;
+			children = (
+				278E7A9D21A7E54800A0505F /* CNCKeywordsCell.h */,
+				278E7A9E21A7E54800A0505F /* CNCKeywordsCell.m */,
+			);
+			path = Keywords;
+			sourceTree = "<group>";
+		};
+		278E7AA021A965EE00A0505F /* ReleaseNotes */ = {
+			isa = PBXGroup;
+			children = (
+				278E7AA121A965FE00A0505F /* CNCReleaseNotesCell.h */,
+				278E7AA221A965FE00A0505F /* CNCReleaseNotesCell.m */,
+			);
+			path = ReleaseNotes;
+			sourceTree = "<group>";
+		};
+		279A6B82216DAAA900A40071 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				279A6B83216DAAC800A40071 /* CNCSettingFooter.h */,
+				279A6B84216DAAC800A40071 /* CNCSettingFooter.m */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		27A9FA59217889B30046096E /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6221788C070046096E /* Model */,
+				27A9FA5E21788ACB0046096E /* View */,
+				27A9FA5A217889C40046096E /* Controller */,
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		27A9FA5A217889C40046096E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA5B217889DD0046096E /* CNCDIYViewController.h */,
+				27A9FA5C217889DD0046096E /* CNCDIYViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27A9FA5E21788ACB0046096E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6621788CC00046096E /* Cell */,
+				27A9FA5F21788AE40046096E /* CNCDIYView.h */,
+				27A9FA6021788AE40046096E /* CNCDIYView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27A9FA6221788C070046096E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6321788C140046096E /* CNCDIYModel.h */,
+				27A9FA6421788C140046096E /* CNCDIYModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27A9FA6621788CC00046096E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6721788CD80046096E /* CNCDIYCell.h */,
+				27A9FA6821788CD80046096E /* CNCDIYCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		27A9FA6A2178A7CD0046096E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6B2178A7E90046096E /* CNCCreateAccountHeaderView.h */,
+				27A9FA6C2178A7E90046096E /* CNCCreateAccountHeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		27A9FA6E21798CEE0046096E /* QueryOptions */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AB42154A49E00B88DFF /* CNCQueryOptionsModel.h */,
+				92A12AB52154A49E00B88DFF /* CNCQueryOptionsModel.m */,
+			);
+			path = QueryOptions;
+			sourceTree = "<group>";
+		};
+		27A9FA6F2179AB5B0046096E /* CNCCollectionNormalCell */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA702179AB800046096E /* CNCCollectionNormalCell.h */,
+				27A9FA712179AB800046096E /* CNCCollectionNormalCell.m */,
+			);
+			path = CNCCollectionNormalCell;
+			sourceTree = "<group>";
+		};
+		27A9FA752179C19B0046096E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27DC433121AE609400DF9214 /* Translate */,
+				27A9FA762179C1E60046096E /* CNCReplyModel.h */,
+				27A9FA772179C1E60046096E /* CNCReplyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27C86965217AC70C007AAE2A /* CNCTransitionPresenPushStyleAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				27C86966217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.h */,
+				27C86967217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.m */,
+			);
+			path = CNCTransitionPresenPushStyleAnimator;
+			sourceTree = "<group>";
+		};
+		27C86969217AC922007AAE2A /* CNCTransitionDismissPopStyleAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				27C8696A217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.h */,
+				27C8696B217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.m */,
+			);
+			path = CNCTransitionDismissPopStyleAnimator;
+			sourceTree = "<group>";
+		};
+		27D158A62163AED50044992F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27DC433921AE6CA100DF9214 /* Language */,
+				275AF51921A561D500B54855 /* Details */,
+				275F5AA62186E8F900E3D1F2 /* Platforms */,
+				27D158A72163AFDE0044992F /* CNCAppDetailModel.h */,
+				27D158A82163AFDE0044992F /* CNCAppDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27DC419F21ACEBD000DF9214 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				27DC41A021ACEBE900DF9214 /* CNCScreenshotsCell.h */,
+				27DC41A121ACEBE900DF9214 /* CNCScreenshotsCell.m */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		27DC433121AE609400DF9214 /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+				27DC433521AE615F00DF9214 /* Sentences */,
+				27DC433221AE60A100DF9214 /* CNCTranslateModel.h */,
+				27DC433321AE60A100DF9214 /* CNCTranslateModel.m */,
+			);
+			path = Translate;
+			sourceTree = "<group>";
+		};
+		27DC433521AE615F00DF9214 /* Sentences */ = {
+			isa = PBXGroup;
+			children = (
+				27DC433621AE616E00DF9214 /* CNCSentencesModel.h */,
+				27DC433721AE616E00DF9214 /* CNCSentencesModel.m */,
+			);
+			path = Sentences;
+			sourceTree = "<group>";
+		};
+		27DC433921AE6CA100DF9214 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				27DC433A21AE6CAC00DF9214 /* CNCLanguageModel.h */,
+				27DC433B21AE6CAC00DF9214 /* CNCLanguageModel.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		92063488215784F5001FE372 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				9206348921578529001FE372 /* CNCWebView.h */,
+				9206348A21578529001FE372 /* CNCWebView.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		921279F421552216000329FC /* CNCAsymptoticLabel */ = {
+			isa = PBXGroup;
+			children = (
+				921279F52155222F000329FC /* CNCAsymptoticLabel.h */,
+				921279F62155222F000329FC /* CNCAsymptoticLabel.m */,
+			);
+			path = CNCAsymptoticLabel;
+			sourceTree = "<group>";
+		};
+		92266DBC2143632500314435 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92266DBD2143633900314435 /* CNCAccountManagerCell.h */,
+				92266DBE2143633900314435 /* CNCAccountManagerCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92266DC0214370F200314435 /* QMUIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				92266DC12143710500314435 /* QMUIAlertController+CNCExtension.h */,
+				92266DC22143710500314435 /* QMUIAlertController+CNCExtension.m */,
+			);
+			path = QMUIAlertController;
+			sourceTree = "<group>";
+		};
+		92266DC42143773600314435 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				92266DC52143774C00314435 /* NSDate+CNCExtension.h */,
+				92266DC62143774C00314435 /* NSDate+CNCExtension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		925423082139154700F25530 = {
+			isa = PBXGroup;
+			children = (
+				2708ABB62168EB1E002C65CC /* Connect_Note.md */,
+				925423132139154700F25530 /* Connect */,
+				925423122139154700F25530 /* Products */,
+				DBA304D01FBA310CE743E032 /* Pods */,
+				0C2F073317BA41859E508872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		925423122139154700F25530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925423112139154700F25530 /* Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925423132139154700F25530 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				2726C17121608BBB005A0562 /* Connect.entitlements */,
+				92FE171B213BD71300FB238A /* Function */,
+				92FE16FD213BB22B00FB238A /* Network */,
+				92FE16EC213BB01D00FB238A /* Base */,
+				92FE16E5213BAF1700FB238A /* Utils */,
+				92FE16E1213BAE3400FB238A /* Public */,
+				92FE16E0213BADBF00FB238A /* AppDelegate */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		92A12A9E2153C99700B88DFF /* CNCAnimationLabel */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AA32153CAA300B88DFF /* CNCAnimationLabel.h */,
+				92A12AA42153CAA300B88DFF /* CNCAnimationLabel.m */,
+			);
+			path = CNCAnimationLabel;
+			sourceTree = "<group>";
+		};
+		92A12AA22153CA7C00B88DFF /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				2786B1EA217A01B100DFE375 /* PureTableView */,
+				27A9FA6F2179AB5B0046096E /* CNCCollectionNormalCell */,
+				92063488215784F5001FE372 /* WKWebView */,
+				921279F421552216000329FC /* CNCAsymptoticLabel */,
+				92A12A9E2153C99700B88DFF /* CNCAnimationLabel */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		92A12AA62154873700B88DFF /* QueryOptions */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AA92154876B00B88DFF /* Model */,
+				92A12AA82154876700B88DFF /* View */,
+				92A12AA72154876300B88DFF /* Controller */,
+			);
+			path = QueryOptions;
+			sourceTree = "<group>";
+		};
+		92A12AA72154876300B88DFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AAA2154878000B88DFF /* CNCQueryOptionsController.h */,
+				92A12AAB2154878000B88DFF /* CNCQueryOptionsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92A12AA82154876700B88DFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AB02154898300B88DFF /* Cell */,
+				92A12AAD2154897C00B88DFF /* CNCQueryOptionView.h */,
+				92A12AAE2154897C00B88DFF /* CNCQueryOptionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92A12AA92154876B00B88DFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92A12AB02154898300B88DFF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92A12AB12154899B00B88DFF /* CNCQueryOptionsCell.h */,
+				92A12AB22154899B00B88DFF /* CNCQueryOptionsCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92BA1E64214A6B0200C1F7A3 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				92BA1E65214A6B4800C1F7A3 /* CNCNotification.h */,
+				92BA1E66214A6B4800C1F7A3 /* CNCNotification.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		92BA1E69214AB41600C1F7A3 /* Connect_PCH */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1712213BBD1D00FB238A /* Connect_NSLog.h */,
+				92FE1742213BFD2700FB238A /* Connect_UserDefaults.h */,
+				92FE1751213CE94A00FB238A /* Connect_SQL.h */,
+				92266E572143B07D00314435 /* Connect_Font.h */,
+				92BA1E68214A6E6E00C1F7A3 /* Connect_NotificationName.h */,
+				92FDA7E92150CA7E0039B339 /* Connect_Enum.h */,
+				92F93E772159F28300647C01 /* Connect_UrlHost.h */,
+				923A0085215A2F9700EABBF1 /* Connect_Regular.h */,
+				2726C17221608E14005A0562 /* Connect_String.h */,
+			);
+			path = Connect_PCH;
+			sourceTree = "<group>";
+		};
+		92D423DC2146868300C9F915 /* SettingModul */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA59217889B30046096E /* DIY */,
+				92FE1752213D0FE900FB238A /* IgnoreApps */,
+				92FE1720213BD73900FB238A /* Setting */,
+			);
+			path = SettingModul;
+			sourceTree = "<group>";
+		};
+		92D423DD214686FF00C9F915 /* QueryModul */ = {
+			isa = PBXGroup;
+			children = (
+				276C5420217F4C2000D71837 /* AllOptions */,
+				2708ABBF2169E74B002C65CC /* ResolutionCenterMsg */,
+				2708AB9D2166ECB0002C65CC /* ResolutionCenter */,
+				92F95E34215511A200D8B03C /* QCLogin */,
+				92F95E2A2154F86B00D8B03C /* Reply */,
+				92F95E252154F40E00D8B03C /* AppDetail */,
+				92A12AA62154873700B88DFF /* QueryOptions */,
+				92D423F72147714700C9F915 /* Application */,
+				92D423DE2146871E00C9F915 /* Query */,
+			);
+			path = QueryModul;
+			sourceTree = "<group>";
+		};
+		92D423DE2146871E00C9F915 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				92D423E32146890800C9F915 /* View */,
+				92D423DF2146873200C9F915 /* Controller */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		92D423DF2146873200C9F915 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92D423E02146874A00C9F915 /* CNCQueryController.h */,
+				92D423E12146874A00C9F915 /* CNCQueryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92D423E32146890800C9F915 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92D423F321468A2F00C9F915 /* Cell */,
+				92D423E42146891C00C9F915 /* CNCQueryView.h */,
+				92D423E52146891C00C9F915 /* CNCQueryView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92D423F321468A2F00C9F915 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92D423F421468A4800C9F915 /* CNCQueryCell.h */,
+				92D423F521468A4800C9F915 /* CNCQueryCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92D423F72147714700C9F915 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				92D423FA2147717D00C9F915 /* Model */,
+				92D423F92147717900C9F915 /* View */,
+				92D423F82147717400C9F915 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		92D423F82147717400C9F915 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92D423FB2147718D00C9F915 /* CNCApplicationController.h */,
+				92D423FC2147718D00C9F915 /* CNCApplicationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92D423F92147717900C9F915 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92D4240121477CB100C9F915 /* Cell */,
+				92D423FE21477CA900C9F915 /* CNCApplicationView.h */,
+				92D423FF21477CA900C9F915 /* CNCApplicationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92D423FA2147717D00C9F915 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				271D7601215BC084006A3B84 /* VersionSets */,
+				9291005C2147C098007ADCC2 /* CNCApplicationModel.h */,
+				9291005D2147C098007ADCC2 /* CNCApplicationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92D4240121477CB100C9F915 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA562178721E0046096E /* CNCApplicationsCell.h */,
+				27A9FA572178721E0046096E /* CNCApplicationsCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92D424052147817E00C9F915 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92D424062147819D00C9F915 /* UICollectionViewCell+CNCExtension.h */,
+				92D424072147819D00C9F915 /* UICollectionViewCell+CNCExtension.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		92E31166213F73520095F1CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27A9FA6A2178A7CD0046096E /* Header */,
+				92E3116A213F79BD0095F1CC /* Cell */,
+				92D423EA2146896500C9F915 /* CNCCreateAccountView.h */,
+				92D423EB2146896500C9F915 /* CNCCreateAccountView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92E3116A213F79BD0095F1CC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92E3116F213F7B580095F1CC /* CNCCreateAccountCell.h */,
+				92E31170213F7B580095F1CC /* CNCCreateAccountCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92E3116B213F79C30095F1CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92E3116C213F79D70095F1CC /* CNCCreateAccountModel.h */,
+				92E3116D213F79D70095F1CC /* CNCCreateAccountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92F95E252154F40E00D8B03C /* AppDetail */ = {
+			isa = PBXGroup;
+			children = (
+				275AF52721A56D2500B54855 /* View */,
+				27D158A62163AED50044992F /* Model */,
+				92F95E262154F41400D8B03C /* Controller */,
+			);
+			path = AppDetail;
+			sourceTree = "<group>";
+		};
+		92F95E262154F41400D8B03C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E272154F42900D8B03C /* CNCAppDetailController.h */,
+				92F95E282154F42900D8B03C /* CNCAppDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92F95E2A2154F86B00D8B03C /* Reply */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E2B2154F87100D8B03C /* Controller */,
+			);
+			path = Reply;
+			sourceTree = "<group>";
+		};
+		92F95E2B2154F87100D8B03C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E2C2154F87D00D8B03C /* CNCReplyController.h */,
+				92F95E2D2154F87D00D8B03C /* CNCReplyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92F95E34215511A200D8B03C /* QCLogin */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E392155128800D8B03C /* View */,
+				92F95E35215511C100D8B03C /* Controller */,
+			);
+			path = QCLogin;
+			sourceTree = "<group>";
+		};
+		92F95E35215511C100D8B03C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E36215511D600D8B03C /* CNCQCLoginController.h */,
+				92F95E37215511D600D8B03C /* CNCQCLoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92F95E392155128800D8B03C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92F95E3E215512FC00D8B03C /* CNCQCLoginView.h */,
+				92F95E3F215512FC00D8B03C /* CNCQCLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92FE16E0213BADBF00FB238A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				925423142139154700F25530 /* AppDelegate.h */,
+				925423152139154700F25530 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		92FE16E1213BAE3400FB238A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				279A6B91216E163A00A40071 /* LaunchScreen.xib */,
+				92FE16E2213BAE5C00FB238A /* PCH */,
+				9254231D2139154900F25530 /* Assets.xcassets */,
+				925423222139154900F25530 /* Info.plist */,
+				925423232139154900F25530 /* main.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		92FE16E2213BAE5C00FB238A /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16E3213BAE8600FB238A /* Connect.pch */,
+				92FE1701213BB25D00FB238A /* Connect_Header.h */,
+				92BA1E69214AB41600C1F7A3 /* Connect_PCH */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		92FE16E5213BAF1700FB238A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				274D2447217C49C300B19339 /* Class */,
+				92A12AA22153CA7C00B88DFF /* CustomView */,
+				92BA1E64214A6B0200C1F7A3 /* Notification */,
+				92FE174D213CE5F300FB238A /* Sql */,
+				92FE1702213BB64800FB238A /* Configuration */,
+				92FE16E6213BAF1B00FB238A /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		92FE16E6213BAF1B00FB238A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				275AF52F21A5851F00B54855 /* NSDictionary */,
+				2776764621746FEA00C2F880 /* UICollectionView */,
+				2708ABBB21690E2C002C65CC /* NSString */,
+				271D760A215BC5BB006A3B84 /* UIImageView */,
+				92D424052147817E00C9F915 /* UICollectionViewCell */,
+				92266DC42143773600314435 /* NSDate */,
+				92266DC0214370F200314435 /* QMUIAlertController */,
+				92FE1735213BE0D700FB238A /* QMUITableViewCell */,
+				92FE1717213BD4F500FB238A /* CNCTabBarViewController */,
+				92FE1713213BBD4600FB238A /* NSArray */,
+				92FE170E213BBB6800FB238A /* UITableView */,
+				92FE170A213BBACA00FB238A /* UIViewController */,
+				92FE1706213BB8C100FB238A /* UIView */,
+				92FE16EB213BAF5F00FB238A /* AppDelagte */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		92FE16EB213BAF5F00FB238A /* AppDelagte */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16E8213BAF5C00FB238A /* AppDelegate+CNCExtenison.h */,
+				92FE16E9213BAF5C00FB238A /* AppDelegate+CNCExtenison.m */,
+			);
+			path = AppDelagte;
+			sourceTree = "<group>";
+		};
+		92FE16EC213BB01D00FB238A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16F9213BB0A200FB238A /* ActivityViewController */,
+				92FE16F5213BB07B00FB238A /* TabBarViewController */,
+				92FE16F1213BB04C00FB238A /* NavigationController */,
+				92FE16ED213BB02700FB238A /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		92FE16ED213BB02700FB238A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16EE213BB04800FB238A /* CNCViewController.h */,
+				92FE16EF213BB04800FB238A /* CNCViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		92FE16F1213BB04C00FB238A /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16F2213BB07600FB238A /* CNCNavigationController.h */,
+				92FE16F3213BB07600FB238A /* CNCNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		92FE16F5213BB07B00FB238A /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16F6213BB09D00FB238A /* CNCTabBarViewController.h */,
+				92FE16F7213BB09D00FB238A /* CNCTabBarViewController.m */,
+			);
+			path = TabBarViewController;
+			sourceTree = "<group>";
+		};
+		92FE16F9213BB0A200FB238A /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16FA213BB0C400FB238A /* CNCActivityViewController.h */,
+				92FE16FB213BB0C400FB238A /* CNCActivityViewController.m */,
+			);
+			path = ActivityViewController;
+			sourceTree = "<group>";
+		};
+		92FE16FD213BB22B00FB238A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92FE16FE213BB24500FB238A /* CNCNetwork.h */,
+				92FE16FF213BB24500FB238A /* CNCNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		92FE1702213BB64800FB238A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1703213BB65D00FB238A /* QMUIConfigurationTemplate.h */,
+				92FE1704213BB65D00FB238A /* QMUIConfigurationTemplate.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		92FE1706213BB8C100FB238A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1707213BB8DC00FB238A /* UIView+CNCExtension.h */,
+				92FE1708213BB8DC00FB238A /* UIView+CNCExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		92FE170A213BBACA00FB238A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE170B213BBAE200FB238A /* UIViewController+CNCExtension.h */,
+				92FE170C213BBAE200FB238A /* UIViewController+CNCExtension.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		92FE170E213BBB6800FB238A /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				92FE170F213BBB7B00FB238A /* UITableView+CNCExtension.h */,
+				92FE1710213BBB7B00FB238A /* UITableView+CNCExtension.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		92FE1713213BBD4600FB238A /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1715213BBD5500FB238A /* NSArray+Log.h */,
+				92FE1714213BBD5500FB238A /* NSArray+Log.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		92FE1717213BD4F500FB238A /* CNCTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1718213BD54300FB238A /* CNCTabBarViewController+CNCExtension.h */,
+				92FE1719213BD54300FB238A /* CNCTabBarViewController+CNCExtension.m */,
+			);
+			path = CNCTabBarViewController;
+			sourceTree = "<group>";
+		};
+		92FE171B213BD71300FB238A /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				274D243E217C25D800B19339 /* AccountModul */,
+				92D423DD214686FF00C9F915 /* QueryModul */,
+				92D423DC2146868300C9F915 /* SettingModul */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		92FE171C213BD71F00FB238A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92FE171D213BD73400FB238A /* CNCSettingController.h */,
+				92FE171E213BD73400FB238A /* CNCSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92FE1720213BD73900FB238A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1739213BE1F700FB238A /* View */,
+				92FE1731213BDD3700FB238A /* Model */,
+				92FE171C213BD71F00FB238A /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		92FE1731213BDD3700FB238A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1732213BDD4700FB238A /* CNCSettingModel.h */,
+				92FE1733213BDD4700FB238A /* CNCSettingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FE1735213BE0D700FB238A /* QMUITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1736213BE0F200FB238A /* QMUITableViewCell+CNCExtension.h */,
+				92FE1737213BE0F200FB238A /* QMUITableViewCell+CNCExtension.m */,
+			);
+			path = QMUITableViewCell;
+			sourceTree = "<group>";
+		};
+		92FE1739213BE1F700FB238A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279A6B82216DAAA900A40071 /* Footer */,
+				92FE173E213BF89000FB238A /* Header */,
+				92FE173A213BE20600FB238A /* Cell */,
+				92D423F0214689BD00C9F915 /* CNCSettingView.h */,
+				92D423F1214689BD00C9F915 /* CNCSettingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92FE173A213BE20600FB238A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92FE173B213BE22600FB238A /* CNCSettingCell.h */,
+				92FE173C213BE22600FB238A /* CNCSettingCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92FE173E213BF89000FB238A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				92FE173F213BF8D200FB238A /* CNCSettingHeaderView.h */,
+				92FE1740213BF8D200FB238A /* CNCSettingHeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		92FE1743213CC7E200FB238A /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1749213CE32000FB238A /* Model */,
+				92FE1748213CE31900FB238A /* View */,
+				92FE1744213CC7EA00FB238A /* Controller */,
+			);
+			path = AccountManager;
+			sourceTree = "<group>";
+		};
+		92FE1744213CC7EA00FB238A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1745213CC80000FB238A /* CNCAccountManagerController.h */,
+				92FE1746213CC80000FB238A /* CNCAccountManagerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92FE1748213CE31900FB238A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92266DBC2143632500314435 /* Cell */,
+				92D423ED214689A000C9F915 /* CNCAccountManagerView.h */,
+				92D423EE214689A000C9F915 /* CNCAccountManagerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92FE1749213CE32000FB238A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92FE174A213CE33400FB238A /* CNCAccountModel.h */,
+				92FE174B213CE33400FB238A /* CNCAccountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92FE174D213CE5F300FB238A /* Sql */ = {
+			isa = PBXGroup;
+			children = (
+				92FE174E213CE60C00FB238A /* CNCSQLManager.h */,
+				92FE174F213CE60C00FB238A /* CNCSQLManager.m */,
+			);
+			path = Sql;
+			sourceTree = "<group>";
+		};
+		92FE1752213D0FE900FB238A /* IgnoreApps */ = {
+			isa = PBXGroup;
+			children = (
+				2726C169215F7D7F005A0562 /* View */,
+				2726C165215F7BD1005A0562 /* Model */,
+				92FE1753213D101700FB238A /* Controller */,
+			);
+			path = IgnoreApps;
+			sourceTree = "<group>";
+		};
+		92FE1753213D101700FB238A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92FE1754213D102C00FB238A /* CNCIgnoreAppsController.h */,
+				92FE1755213D102C00FB238A /* CNCIgnoreAppsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92FE175B213D48CF00FB238A /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				92E3116B213F79C30095F1CC /* Model */,
+				92E31166213F73520095F1CC /* View */,
+				92FE175C213D48D900FB238A /* Controller */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		92FE175C213D48D900FB238A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92FE175D213D48E900FB238A /* CNCCreateAccountController.h */,
+				92FE175E213D48E900FB238A /* CNCCreateAccountController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBA304D01FBA310CE743E032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12290E2ADC527A29BD947089 /* Pods-Connect.debug.xcconfig */,
+				353DFB8FF3A7B9CA3B02311B /* Pods-Connect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925423102139154700F25530 /* Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925423272139154900F25530 /* Build configuration list for PBXNativeTarget "Connect" */;
+			buildPhases = (
+				63B6E0E2C9452BE2EBC6A5C1 /* [CP] Check Pods Manifest.lock */,
+				9254230D2139154700F25530 /* Sources */,
+				9254230E2139154700F25530 /* Frameworks */,
+				9254230F2139154700F25530 /* Resources */,
+				9AEDBEFBDB964727E63E8A5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Connect;
+			productName = Connect;
+			productReference = 925423112139154700F25530 /* Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925423092139154700F25530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CNC;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = CoderDwang;
+				TargetAttributes = {
+					925423102139154700F25530 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9254230C2139154700F25530 /* Build configuration list for PBXProject "Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+				en,
+			);
+			mainGroup = 925423082139154700F25530;
+			productRefGroup = 925423122139154700F25530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925423102139154700F25530 /* Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9254230F2139154700F25530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279A6B92216E163A00A40071 /* LaunchScreen.xib in Resources */,
+				9254231E2139154900F25530 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63B6E0E2C9452BE2EBC6A5C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEDBEFBDB964727E63E8A5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/KafkaRefresh/KafkaRefresh/Resource/Image.bundle/arrow48.png",
+				"${PODS_ROOT}/KafkaRefresh/KafkaRefresh/Resource/Image.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrow48.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Image.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect/Pods-Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9254230D2139154700F25530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A9FA582178721E0046096E /* CNCApplicationsCell.m in Sources */,
+				2726C168215F7BED005A0562 /* CNCIgnoreAppModel.m in Sources */,
+				27A9FA6921788CD80046096E /* CNCDIYCell.m in Sources */,
+				92D423FD2147718D00C9F915 /* CNCApplicationController.m in Sources */,
+				27DC41A221ACEBE900DF9214 /* CNCScreenshotsCell.m in Sources */,
+				92FE1756213D102C00FB238A /* CNCIgnoreAppsViewController.m in Sources */,
+				92D423EC2146896500C9F915 /* CNCCreateAccountView.m in Sources */,
+				92FE174C213CE33400FB238A /* CNCAccountModel.m in Sources */,
+				92E31171213F7B580095F1CC /* CNCCreateAccountCell.m in Sources */,
+				92D4240021477CA900C9F915 /* CNCApplicationView.m in Sources */,
+				92A12AA52153CAA300B88DFF /* CNCAnimationLabel.m in Sources */,
+				2708ABA12166ECCA002C65CC /* CNCResolutionCenterController.m in Sources */,
+				2708ABC82169F599002C65CC /* CNCResolutionCenterMsgToolBar.m in Sources */,
+				92D423E62146891C00C9F915 /* CNCQueryView.m in Sources */,
+				27A9FA6D2178A7E90046096E /* CNCCreateAccountHeaderView.m in Sources */,
+				92FE16F0213BB04800FB238A /* CNCViewController.m in Sources */,
+				2726C170215F7F14005A0562 /* CNCIgnoreAppsCell.m in Sources */,
+				27A9FA722179AB800046096E /* CNCCollectionNormalCell.m in Sources */,
+				2708ABC32169E77B002C65CC /* CNCResolutionCenterMsgController.m in Sources */,
+				92D423EF214689A000C9F915 /* CNCAccountManagerView.m in Sources */,
+				92FE171F213BD73400FB238A /* CNCSettingController.m in Sources */,
+				92FE16F4213BB07600FB238A /* CNCNavigationController.m in Sources */,
+				2786B1ED217A01F700DFE375 /* CNCPureTableView.m in Sources */,
+				27A9FA782179C1E60046096E /* CNCReplyModel.m in Sources */,
+				27A9FA5D217889DD0046096E /* CNCDIYViewController.m in Sources */,
+				27A9FA6121788AE40046096E /* CNCDIYView.m in Sources */,
+				27D158A92163AFDE0044992F /* CNCAppDetailModel.m in Sources */,
+				92FE175F213D48E900FB238A /* CNCCreateAccountController.m in Sources */,
+				92D423F2214689BD00C9F915 /* CNCSettingView.m in Sources */,
+				275AF53221A5854100B54855 /* NSDictionary+CNCExtension.m in Sources */,
+				92BA1E67214A6B4800C1F7A3 /* CNCNotification.m in Sources */,
+				921279F72155222F000329FC /* CNCAsymptoticLabel.m in Sources */,
+				92FE173D213BE22600FB238A /* CNCSettingCell.m in Sources */,
+				92D423E22146874A00C9F915 /* CNCQueryController.m in Sources */,
+				271D7609215BC3F8006A3B84 /* CNCAVSVAppIconModel.m in Sources */,
+				271D7605215BC17C006A3B84 /* CNCAVSVersionModel.m in Sources */,
+				92FE1741213BF8D200FB238A /* CNCSettingHeaderView.m in Sources */,
+				92FE1747213CC80000FB238A /* CNCAccountManagerController.m in Sources */,
+				92D424082147819D00C9F915 /* UICollectionViewCell+CNCExtension.m in Sources */,
+				27A9FA6521788C140046096E /* CNCDIYModel.m in Sources */,
+				92FE1750213CE60C00FB238A /* CNCSQLManager.m in Sources */,
+				92FE171A213BD54300FB238A /* CNCTabBarViewController+CNCExtension.m in Sources */,
+				275F5AAE2186E9F700E3D1F2 /* CNCDetailVersionModel.m in Sources */,
+				925423242139154900F25530 /* main.m in Sources */,
+				2726C16C215F7D99005A0562 /* CNCIgnoreAppsView.m in Sources */,
+				92FE170D213BBAE200FB238A /* UIViewController+CNCExtension.m in Sources */,
+				275AF52A21A574AF00B54855 /* CNCAppDetailView.m in Sources */,
+				92F95E292154F42900D8B03C /* CNCAppDetailController.m in Sources */,
+				92FE16F8213BB09D00FB238A /* CNCTabBarViewController.m in Sources */,
+				278E7AA321A965FE00A0505F /* CNCReleaseNotesCell.m in Sources */,
+				275F5AAA2186E93D00E3D1F2 /* CNCDetailPlatformModel.m in Sources */,
+				925423162139154700F25530 /* AppDelegate.m in Sources */,
+				274D244B217C4A5E00B19339 /* CNCCollectionNormalLayout.m in Sources */,
+				9291005E2147C098007ADCC2 /* CNCApplicationModel.m in Sources */,
+				92FE1709213BB8DC00FB238A /* UIView+CNCExtension.m in Sources */,
+				92A12AAC2154878000B88DFF /* CNCQueryOptionsController.m in Sources */,
+				92E3116E213F79D70095F1CC /* CNCCreateAccountModel.m in Sources */,
+				279A6B85216DAAC800A40071 /* CNCSettingFooter.m in Sources */,
+				92FE1738213BE0F200FB238A /* QMUITableViewCell+CNCExtension.m in Sources */,
+				92266DBF2143633A00314435 /* CNCAccountManagerCell.m in Sources */,
+				92FE1716213BBD5500FB238A /* NSArray+Log.m in Sources */,
+				92F95E2E2154F87D00D8B03C /* CNCReplyController.m in Sources */,
+				92A12AB62154A49E00B88DFF /* CNCQueryOptionsModel.m in Sources */,
+				2708ABAD2166EE76002C65CC /* CNCResolutionCenterCell.m in Sources */,
+				27DC433421AE60A100DF9214 /* CNCTranslateModel.m in Sources */,
+				275AF52E21A575A600B54855 /* CNCAppDetailHeaderView.m in Sources */,
+				92FE1700213BB24500FB238A /* CNCNetwork.m in Sources */,
+				92266DC72143774C00314435 /* NSDate+CNCExtension.m in Sources */,
+				92A12AB32154899B00B88DFF /* CNCQueryOptionsCell.m in Sources */,
+				2708ABA52166ED72002C65CC /* CNCResolutionCenterModel.m in Sources */,
+				27DC433C21AE6CAC00DF9214 /* CNCLanguageModel.m in Sources */,
+				92F95E38215511D600D8B03C /* CNCQCLoginController.m in Sources */,
+				92FE16EA213BAF5C00FB238A /* AppDelegate+CNCExtenison.m in Sources */,
+				278E7A9F21A7E54800A0505F /* CNCKeywordsCell.m in Sources */,
+				27C8696C217AC932007AAE2A /* CNCTransitionDismissPopStyleAnimator.m in Sources */,
+				2708ABBE21690E45002C65CC /* NSString+CNCExtension.m in Sources */,
+				275AF52221A5622400B54855 /* CNCDetailModel.m in Sources */,
+				27C86968217AC753007AAE2A /* CNCTransitionPresenPushStyleAnimator.m in Sources */,
+				271D760E215BC5FC006A3B84 /* UIImageView+CNCExtension.m in Sources */,
+				92A12AAF2154897C00B88DFF /* CNCQueryOptionView.m in Sources */,
+				277676492174700300C2F880 /* UICollectionView+CNCExtenison.m in Sources */,
+				271D7600215BC07E006A3B84 /* CNCAVersionSetsModel.m in Sources */,
+				92FE16FC213BB0C400FB238A /* CNCActivityViewController.m in Sources */,
+				2708ABB12166F6E0002C65CC /* CNCResolutionCenterMsgModel.m in Sources */,
+				2708ABA92166ED98002C65CC /* CNCResolutionCenterView.m in Sources */,
+				92D423F621468A4800C9F915 /* CNCQueryCell.m in Sources */,
+				92FE1711213BBB7B00FB238A /* UITableView+CNCExtension.m in Sources */,
+				92F95E40215512FC00D8B03C /* CNCQCLoginView.m in Sources */,
+				276C5424217F4C4900D71837 /* CNCAllOptionsController.m in Sources */,
+				9206348B21578529001FE372 /* CNCWebView.m in Sources */,
+				92FE1705213BB65D00FB238A /* QMUIConfigurationTemplate.m in Sources */,
+				92FE1734213BDD4700FB238A /* CNCSettingModel.m in Sources */,
+				2708ABBA2168F33D002C65CC /* CNCResolutionCenterHeader.m in Sources */,
+				27DC433821AE616E00DF9214 /* CNCSentencesModel.m in Sources */,
+				92266DC32143710500314435 /* QMUIAlertController+CNCExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		925423252139154900F25530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		925423262139154900F25530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925423282139154900F25530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12290E2ADC527A29BD947089 /* Pods-Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Connect/Connect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9287QJJY4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Public/PCH/$(PROJECT_NAME).pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Connect/Public/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderdwang.connect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		925423292139154900F25530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353DFB8FF3A7B9CA3B02311B /* Pods-Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Connect/Connect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9287QJJY4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Public/PCH/$(PROJECT_NAME).pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Connect/Public/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderdwang.connect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9254230C2139154700F25530 /* Build configuration list for PBXProject "Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925423252139154900F25530 /* Debug */,
+				925423262139154900F25530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925423272139154900F25530 /* Build configuration list for PBXNativeTarget "Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925423282139154900F25530 /* Debug */,
+				925423292139154900F25530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925423092139154700F25530 /* Project object */;
+}
